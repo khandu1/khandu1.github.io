@@ -69,10 +69,43 @@ body {font-family: "Lato", sans-serif}
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h2 class="w3-wide">Sys Administration</h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p class="w3-opacity"><i>Love Server Administration</i></p>
+    <p class="w3-justify">Unix system administrators can administer systems in three different environments
+
+Small sites have, say, less then 20 machines, all running the same flavor of Unix OS (for example Suse 10 or CentOS). Usually the administrator of a small site has number of users only slightly bigger then the number of the servers. Also typically he/she is a single administrator for all the servers or have just one colleague administrator who often works different shift. The server maintained are usually small servers often from a low cost provider (Dell). This is a typical environment for startups.
+Medium sites have less then a hundred servers, and may be running two-three different flavors of Unix. Typically they are installed in a single location. Number of users can exceed the number of servers by factor 2 or 3. There are multiple administrators and there is some level specialization (for example, backup vs. monitoring). Most servers are small or medium but there can be large servers in the environment as well. The latter requires more specialized hardware knowledge.
+Large sites often called enterprise sites typically have several hundreds servers and  several datacenters. Remote datacenters are common in this environment, so you might never see actual servers you administer. More often then not all major flavors of Unix are present (due to acquisitions), the situation which create serious additional difficulties for administrators. The team on administrators consists of at least half-dozen sysadmins with different administrators specializing in different flavors of Unix and different applications. At enterprise level there is also a formal hierarchy of administrators:
+Entry level Unix admins. They are just one step above operators and know basic administration of Unix boxes and not much more. Paradoxically a lot of enterprise sysadmins remain at this level for years, especially if they need to administer both Windows and Unix servers. 
+Junior Unix admins. Typically have BS degree and usually do not have in-depth knowledge of scripting, although some knowledge of shell and the ability to write simple scripts is a must. A+ certification level of understanding of networking is a must. RHEL technician certification is the typical certification required. They need to know how to work with just three enterprise applications:
+backup, for example Data Protector
+monitoring, for example HP Operations Manager
+scheduling (minimal)
+Senior Unix admins. Typically have MS degree (or considerable work experience along with natural talent ) and/or a couple of Unix certifications (for example Solaris administration and networking and Red Hat engineer certification) as well as in-depth knowledge two or more scripting languages (shell and Perl, or shell and TCL) and one compiled language (C, C++) in the level enough to develop and port small utilities, recompile kernel, compile PHP, apache, bind and such. In addition they should have a solid understanding of TCP/IP networking including detailed knowledge of SMTP, DNS and HTTP protocols. In addition to applications listed in prev section knowledge of Web servers, and database is a must. They also should know substantial set of enterprise applications and be able to extend them, for example by writing monitoring probes for HP Operations Manager of Tivoli TEC. 
+Gugus. Those are people who in addition to deep technical knowledge have talent to see architectural issues behind technical issues along with in-depth (often) on the kernel level knowledge of Unix. Typically gurus have written some useful for administration application which is their "claim to fame". The key feature of a guru is the ability to work on several drastically different technical levels (say architectural and low level coding) equally well and extract tremendous synergy from the ability to switch from one level to another and see their interaction. This is a pretty rare quality and people with such ability are equally rare.
+The level of specialization among administrators of the same hierarchical level in large organizations is also higher with typically specialized admin responsible for backup (say DataProtector-based) and monitoring (say Tivoli based). Often all flavors of Unix are present in the environment so there are categories of admin specializing in each flavor or a couple of flavors (it is difficult to become proficient in more then two). Say one administrator is the primary specialist in Solaris but also knows Linux well, the other is primary specialist in HP-UX and AIX so on.
+
+Also at enterprise level there is considerably more politics and red tape involved in the sysadmin job in comparison with smaller sites.
+
+Here are example of qualifications for a senior enterprise Unix administrator from a Monster job advertisement:
+
+MS degree in computer science or a related technical field.
+Solaris certification required; 10+ years of Solaris-10 (SPARC/X86) operating system administration
+Basic networking skills, solid knowledge of DNS (bind), Sendmail, firewalls. Solaris network certification preferred.
+Minimum 3 years experience with Sun Web Portal
+Experience with Veritas Volume Manager and Veritas Filesystem
+Proven understanding of EMC SAN technology
+Experience with Source Control, CVS or equivalent
+Experience with relational database and SQL.
+Knowledge of system monitoring (such as Tivoli ITM 6.1), availability monitoring and SLA reporting
+Experience overseeing maintenance of mid range Unix servers including but not limited to Linux, Solaris, and AIX
+Ability to coordinate special efforts such as emergency upgrades and *deep-dive" technical analysis
+Experience in administrating of mid-range servers from Sun, Dell and IBM.
+History of establishing and insuring 24x7 support services, operational standards, processes, and procedures
+Ability to be flexible with work schedule, including weekends and holidays
+Ability to prepare, present, and translate technical requirements into successful business cases
+Must be highly skilled and proficient in problem solving and able to follow a systematic troubleshooting approach
+Require minimum support or supervision and is able to solve most issues and/or challenges independently
+Leadership potential</p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
         <p>Name</p>
